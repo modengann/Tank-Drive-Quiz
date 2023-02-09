@@ -11,8 +11,8 @@ public class Quiz extends OpMode {
         leftBack = hardwareMap.dcMotor.get("back_left_motor");
         rightFront = hardwareMap.dcMotor.get("front_right_motor");
         rightBack = hardwareMap.dcMotor.get("back_right_motor");
-        rightBack.setDirection(DcMotor.Direction.REVERSE);
-        rightFront.setDirection(DcMotor.Direction.REVERSE);
+        leftFront.setDirection(DcMotor.Direction.REVERSE);
+        leftBack.setDirection(DcMotor.Direction.REVERSE);
     }
 
     public void loop(){
